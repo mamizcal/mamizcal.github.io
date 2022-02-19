@@ -188,7 +188,74 @@ header {
 }
 
 
+.pop-up {
+  background-color: white;
+  width: 400px;
+  height: 360px;
+  top: 40px;
+  padding: 20px 30px 50px 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+.box-pop-up h2 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 900; 
+  text-decoration: uppercase;
+  color: #ec3f6c;
+}
+.box-pop-up p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+}
 
+.div-img-pop-up {
+  border: 0px;
+  display: inline-block;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  width: 300px;
+  height: 450px;
+  background-image: url('https://images.unsplash.com/photo-1527234639945-70d78416bd7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=721783d6df00ea979608158fd776675e&auto=format&fit=crop&w=1319&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.form-pop-up {
+  padding-top: 20px;
+}
+.form-pop-up input {
+  border: unset;
+  padding: 10px;
+  width: 250px;
+  background-color: #f2f2f2;  
+  font-size: 14px;
+}
+.form-pop-up input:focus {
+  outline: unset;
+}
+.form-pop-up button {
+  border: unset;
+  background-color: #ec3f6c;
+  padding: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: -5px;
+  font-weight: 500;
+  font-family: Lato;
+  letter-spacing: 1.2px;
+}
+
+body {
+  background-color: grey;
+  padding: 70px 0;
+}
 
 
 #interview {
